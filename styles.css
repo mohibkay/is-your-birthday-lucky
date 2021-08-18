@@ -1,0 +1,43 @@
+:root {
+  --primary-dark: #0f172a;
+  --primary-green: #89ddff;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--primary-dark);
+}
+
+.container {
+  width: 35%;
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--primary-green);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--primary-green);
+}
+
+input,
+label,
+textarea {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+#check-btn {
+  margin-bottom: 0.5rem;
+  background-color: var(--primary-green);
+  color: var(--primary-dark);
+  padding: 0.35rem 0.65rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+textarea {
+  display: none;
+  padding: 0.5rem;
+  background-color: var(--primary-green);
+  color: var(--primary-dark);
+}
