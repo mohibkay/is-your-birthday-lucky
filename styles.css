@@ -41,3 +41,8 @@ textarea {
   background-color: var(--primary-green);
   color: var(--primary-dark);
 }
+
+footer > p {
+  text-align: center;
+  color: red;
+}
